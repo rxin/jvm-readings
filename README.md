@@ -59,3 +59,22 @@ Intrinsics
 http://www.slideshare.net/RednaxelaFX/green-teajug-hotspotintrinsics02232013
 
 
+Java Memory Model
+
+- JMM fundamentals: Access atomicity, word tearing, Sequential Consistency, Synchronization Order, SO-PO/SO consistencies, Synchronizes-With Order, Happens-Before, Sequential Consistency - Data Race Free, "Roach Motel", Out of Thin Air values, Finals semantics, JMM9.
+https://shipilev.net/blog/2014/jmm-pragmatics/
+
+- JMM fundamentals follow up. Common misunderstandings, mistakes and misconceptions.
+https://shipilev.net/blog/2016/close-encounters-of-jmm-kind/
+
+- JMM in every day life. Combinations of Safe/Unsafe Publications & Safe/Unsafe Initializations. Singletons. Performance and memory costs.
+https://shipilev.net/blog/2014/safe-public-construction/
+
+- "The JSR-133 Cookbook for Compiler Writers" by Doug Lea. On Memory Barriers.
+http://gee.cs.oswego.edu/dl/jmm/cookbook.html
+
+- "The "Double-Checked Locking is Broken" Declaration" (before JSR133/JavaSE 5).
+http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html
+
+- "All Fields Are Final" experimental set up / analysys for final fields perfomance tests. Memory Barriers for final fields.
+https://shipilev.net/blog/2014/all-fields-are-final/
