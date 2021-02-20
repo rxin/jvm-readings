@@ -39,7 +39,7 @@ http://hg.openjdk.java.net/code-tools/jmh/file/tip/jmh-samples/src/main/java/org
 
 Unsafe
 
-http://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
+http://mydailyjava.blogspot.com/2013/12/the-infamous-sunmiscunsafe-explained.html
 
 
 Method Dispatch
